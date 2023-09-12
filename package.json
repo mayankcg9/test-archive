@@ -1,0 +1,23 @@
+{
+  "name": "test-archive",
+  "version": "1.0.9",
+  "description": "testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node install.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayankcg9/test-archive.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayankcg9/test-archive/issues"
+  },
+  "homepage": "https://github.com/mayankcg9/test-archive#readme",
+  "dependencies": {
+    "archiver": "^6.0.1"
+  }
+}
